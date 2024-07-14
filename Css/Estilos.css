@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo
+{
+    display: flex;
+    color:white;
+    text-decoration: none;
+}
+.logo img
+{
+    display: flex;
+    height: 76px;
+    padding-right: 8px;
+}
+.nav-link{
+    font-size: medium;
+    font-family: cursive;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+.nav-link:hover{
+    color:blueviolet;
+}
